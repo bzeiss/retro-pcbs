@@ -11,7 +11,7 @@ Feedback is always very welcome 😄
 
 This is a 5.25" bay for retro PCs that use the [https://www.serdashop.com/](Serdaco/Serdashop) WP32 McCake [https://github.com/dwhinham/mt32-pi](mt32-pi) waveblaster extension.
 
-The bay is work in progress and test prints and test pcbs have been ordered, but not yet verified to be all working together as expected.  
+The bay is work in progress, test pcbs have been ordered, but I haven't verified that everything works perfectly together as expected.  
 
 Teaser:
 
