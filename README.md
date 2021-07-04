@@ -13,8 +13,6 @@ This is a 5.25" bay for retro PCs that use the [https://www.serdashop.com/](Serd
 
 The bay is work in progress, test pcbs have been ordered, but I haven't verified that everything works perfectly together as expected.  
 
-Teaser:
-
 ![image](https://user-images.githubusercontent.com/884834/124360159-944fea80-dc28-11eb-87fa-5ab4bda11be3.png)
 
 ![image](https://user-images.githubusercontent.com/884834/124390280-16084c80-dceb-11eb-9aac-38e4baddc9fc.png)
