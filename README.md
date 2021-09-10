@@ -44,3 +44,43 @@ Parts are mostly standard parts and can based obtained easily from AliExpress or
 |     1    | 1.3" SH1106 I2C OLED display (not the typical 0.96" one!) | [AliExpress](https://de.aliexpress.com/item/4001244324545.html?spm=a2g0s.9042311.0.0.27424c4dTWHz1p) | Required pin order: VCC-GND-SCL-SDA |
 |     1    | IDC cable with at least 9 pins in a row | [Amazon](https://www.amazon.de/dp/B07KFX57HV/ref=cm_sw_em_r_mt_dp_9ASK1YN18FPK2M1SWVQK?_encoding=UTF8&psc=1) | |
 |     1    | Serdaco WP32 McCake | | |
+
+### Configuration
+
+These are the changes I have made to my mt32-pi.cfg
+
+```
+[system]
+usb = off
+
+[audio]
+output_device = i2s
+
+[control]
+scheme = simple_encoder
+
+[lcd]
+type = sh1106_i2c
+width = 128
+height = 64
+```
+
+config.txt:
+
+```
+avoid_warnings=2
+
+[pi4]
+arm_64bit=1
+armstub=armstub8-rpi4.bin
+kernel=kernel8-rpi4.img
+
+# Optimized frequency settings for lower energy use/temperature on Pi 4
+arm_freq=600
+arm_freq_min=100
+gpu_freq=100
+over_voltage=-16
+over_voltage_min=-16
+```
+
+The pi4 section should be the default one starting mt32-pi 0.10.0 or so. Make sure you have the arm frequency adjustments in there in order to avoid high temperatures and throttling of the compute module 4.
