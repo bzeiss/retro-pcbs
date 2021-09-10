@@ -25,6 +25,8 @@ Gerber: https://github.com/bzeiss/retro-pcbs/blob/main/mccake-5.25-inch-bay/kica
 
 Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3dmodel
 
+There is not knob for the rotary encoder in the STL directory. I have just grabbed one from thingiverse for it.
+
 ### Prerequisites
 
 You need a soldering iron, some solder and a 3D printer to build this. It is very generally easy to build.
@@ -41,3 +43,4 @@ Parts are mostly standard parts and can based obtained easily from AliExpress or
 |     1    | 2.54mm pin header with 9 pins           | |
 |     1    | SH1106 I2C OLED display                 | |
 |     1    | IDC cable with at least 9 pins in a row | https://www.amazon.de/dp/B07KFX57HV/ref=cm_sw_em_r_mt_dp_9ASK1YN18FPK2M1SWVQK?_encoding=UTF8&psc=1 |
+|     1    | Serdaco WP32 McCake | |
