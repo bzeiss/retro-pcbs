@@ -34,10 +34,11 @@ The PCB for the front panel can be ordered, for example, from jlcpcb.com, pcbway
 
 Parts are mostly standard parts and can based obtained easily from AliExpress or any other electronics dealer.
 
-| Quantity | Part                                    |
-|----------|------                                   |
-|     1    | Through-hole rotary knob with button    |
-|     2    | Through-hole standard 4-pin buttons     | 
-|     1    | 2.54mm pin header with 9 pins           | 
-|     1    | SH1106 I2C OLED display                 | 
+| Quantity | Part                                    | Example                                                                                           |
+|----------|------                                   | |
+|     1    | Through-hole rotary knob with button    | |
+|     2    | Through-hole standard 4-pin buttons     | |
+|     1    | 2.54mm pin header with 9 pins           | |
+|     1    | SH1106 I2C OLED display                 | |
+|     1    | IDC cable with at least 9 pins in a row | https://www.amazon.de/dp/B07KFX57HV/ref=cm_sw_em_r_mt_dp_9ASK1YN18FPK2M1SWVQK?_encoding=UTF8&psc=1
 
