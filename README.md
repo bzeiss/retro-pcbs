@@ -28,6 +28,7 @@ Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3
 ### Prerequisites
 
 You need a soldering iron, some solder and a 3D printer to build this. It is very generally easy to build.
+The PCB for the front panel can be ordered, for example, from jlcpcb.com, pcbway, oshpark or similar servies.
 
 ### BOM
 
