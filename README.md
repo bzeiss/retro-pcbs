@@ -9,9 +9,9 @@ Feedback is always very welcome 😄
 
 ## WP32 McCake 5.25" bay
 
-This is a 5.25" bay for retro PCs that use the [https://www.serdashop.com/](Serdaco/Serdashop) WP32 McCake [https://github.com/dwhinham/mt32-pi](mt32-pi) waveblaster extension.
+This is a 5.25" bay for retro PCs that use the [https://www.serdashop.com/](Serdaco/Serdashop) WP32 McCake [https://github.com/dwhinham/mt32-pi](mt32-pi) waveblaster extension. Be aware that Serdaco offers their own bay. This bay is a DIY alternative with a larger display and a rotary knob for volume control.
 
-The bay is work in progress, test pcbs have been ordered, but I haven't verified that everything works perfectly together as expected.  
+Bay + PCB have been tested and seem to work well.
 
 ![image](https://user-images.githubusercontent.com/884834/124360159-944fea80-dc28-11eb-87fa-5ab4bda11be3.png)
 
@@ -19,4 +19,21 @@ The bay is work in progress, test pcbs have been ordered, but I haven't verified
 
 ![image](https://user-images.githubusercontent.com/884834/124390288-26b8c280-dceb-11eb-93ac-455ed4f14fee.png)
 
-![20210704_170034](https://user-images.githubusercontent.com/884834/124390199-c3c72b80-dcea-11eb-98cd-560a0d7954f7.jpg)
+![20210910_171233](https://user-images.githubusercontent.com/884834/132877155-81e0a804-c985-4adc-b823-88f555d96014.jpg)
+
+Gerber: https://github.com/bzeiss/retro-pcbs/blob/main/mccake-5.25-inch-bay/kicad/gerber/mccake-5.25-inch-bay-v1.0.zip
+Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3dmodel
+
+### Prerequisites
+
+You need a soldering iron, some solder and a 3D printer to build this. It is very generally easy to build.
+
+### BOM
+
+| Quantity | Part                                    |
+|----------|------                                   |
+|     1    | Through-hole rotary knob with button    |
+|     2    | Through-hole standard 4-pin buttons     | 
+|     1    | 2.54mm pin header with 9 pins           | 
+|     1    | SH1106 I2C OLED display                 | 
+
