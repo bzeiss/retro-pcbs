@@ -25,7 +25,7 @@ Gerber: https://github.com/bzeiss/retro-pcbs/blob/main/mccake-5.25-inch-bay/kica
 
 Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3dmodel
 
-There is not knob for the rotary encoder in the STL directory. I have just grabbed one from thingiverse for it.
+There is no knob for the rotary encoder in the STL directory. I have just grabbed one from thingiverse for it.
 
 ### Prerequisites
 
