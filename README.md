@@ -22,6 +22,7 @@ Bay + PCB have been tested and seem to work well.
 ![20210910_171233](https://user-images.githubusercontent.com/884834/132877155-81e0a804-c985-4adc-b823-88f555d96014.jpg)
 
 Gerber: https://github.com/bzeiss/retro-pcbs/blob/main/mccake-5.25-inch-bay/kicad/gerber/mccake-5.25-inch-bay-v1.0.zip
+
 Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3dmodel
 
 ### Prerequisites
@@ -29,6 +30,8 @@ Case STLs: https://github.com/bzeiss/retro-pcbs/tree/main/mccake-5.25-inch-bay/3
 You need a soldering iron, some solder and a 3D printer to build this. It is very generally easy to build.
 
 ### BOM
+
+Parts are mostly standard parts and can based obtained easily from AliExpress or any other electronics dealer.
 
 | Quantity | Part                                    |
 |----------|------                                   |
